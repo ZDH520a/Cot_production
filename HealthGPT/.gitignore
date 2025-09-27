@@ -1,0 +1,62 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+models
+neuroblastoma
+serve_images/
+# wengjian
+LICENSE
+playground/data_sft/img/train
+VQA_Med
+VQA-RAD
+VQA-RAD-xray
+occupancy_com_batchinfer.csv
+occupancy_gen_batchinfer.csv
+question_com.jsonl
+question_gen.jsonl
+question_VQARAD.jsonl
+question_VQARAD2.jsonl
+question_VQARAD3.jsonl
+response_output_com_batchinfer-VQAMed.csv
+response_output_com_batchinfer-VQARAD.csv
+response_output_com_batchinfer-VQARAD2.csv
+response_output_com_batchinfer.csv
+temperature-test.csv
+VQAMed_VQA.jsonl
+temperature-test.jsonl
+PathMMU
+MedEvalKit
+taming_transformers/ckpt/last.ckpt
+
+
